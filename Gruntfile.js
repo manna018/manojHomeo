@@ -1,6 +1,13 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
+        'gh-pages': {
+            options: {
+              base: 'dist'
+            },
+            src: ['**']
+          }
+        });
         pkg: grunt.file.readJSON('package.json'),
 
         concat: {
@@ -104,4 +111,5 @@ module.exports = function (grunt) {
     // Define the tasks
     grunt.registerTask('serve', ['shell:jekyllServe']);
     grunt.registerTask('default', ['watch']);
+    
 }
