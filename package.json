@@ -1,5 +1,5 @@
 {
-  "name": "dentalsmile",
+  "name": "manojHomeo",
   "version": "1.0.0",
   "description": "",
   "main": "Gruntfile.js",
@@ -14,7 +14,6 @@
     "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-uglify": "^0.9.1",
     "grunt-contrib-watch": "^0.6.1",
-    "grunt-gh-pages": "^4.0.0",
     "grunt-sass": "^1.0.0",
     "grunt-shell": "^1.1.2",
     "grunt-svgmin": "^2.0.1",
