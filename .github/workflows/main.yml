@@ -32,4 +32,5 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         npm install grunt --save-dev
+        npm install --save-dev load-grunt-tasks
         grunt serve
