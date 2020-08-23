@@ -2,7 +2,7 @@
 title: DentistSmile | Dental Jekyll Theme
 description: "A responsive Jekyll theme for dental clinics."
 baseurl: "/manojHomeo" # the subpath of your site, e.g. /blog
-url: "manna018.github.io" # the name of your domain
+url: "https://manna018.github.io" # the name of your domain
 logo_url: svg/min/logo.svg
 
 # Hero
