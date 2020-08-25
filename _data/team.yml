@@ -1,34 +1,9 @@
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Dr Abhishek Kumar
+  image: abhishek.jpg
+  email: doctorkumar01@gmail.com
+  phone: 82 5253 7677
 
-- name: Troy Barnes 
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Jeff Winger
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
+- name: Dr Rohit Kumar Singh
+  image: abhishek.jpg
   email: email@gmail.com
   phone: 9659 43 21

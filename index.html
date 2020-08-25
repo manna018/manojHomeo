@@ -17,7 +17,8 @@ layout: default
         
         <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
             <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Make an Appointment</h3>
-            <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
+             <form action="https://formspree.io/{{ site.api_token }}" method="post"> 
+                
                 <div class="form-field">
                     <input name="name" type="text" placeholder="Name" required>
                 </div>
@@ -86,8 +87,8 @@ layout: default
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>Welcome to DentistSmile</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis nostrum ab vero temporibus magnam, delectus!</p>
+                <h3>Welcome to Manoj Homeo</h3>
+                <p>Late Dr. Manoj Kumar Singh was a renowned homepathic physician and chronic disease specialist.He started the reputed Manoj Homeo Clinic in the year 1996. Carrying his legacy and learning forward Dr. Abhishek Kumar B.H.M.S.(Bachelor in Homeopathic Medicine and Surgery) started his practice in 2014.He has been getting overwhelming response since then. </p>
 
                 <div class="media">
                     <div class="media-left">
@@ -96,7 +97,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>By Unique Preparation of Homeopathic Remedies we ensure that your overall well-being is achieved.</p>
                     </div>
                 </div>
 
@@ -107,7 +108,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>We keep our patient engagement policy on the highest priority. We make it easy for our patients to connect with us at any given point of time.All medical problems from small to serious will be taken care of like your family physician does.</p>
                     </div>
                 </div>
 
@@ -118,7 +119,7 @@ layout: default
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam explicabo unde doloremque quo, fugit, nisi.</p>
+                        <p>Our mission is to provide quick relief and then remove the disease permanently. </p>
                     </div>
                 </div>
             </div>
@@ -216,5 +217,6 @@ layout: default
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div> -->
+<div  id="location" class="mapouter"><div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Manoj%20Homeo%20Lalganj&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%;"></iframe></div><style>.mapouter{position:relative;text-align:center;}.gmap_canvas {overflow:hidden;background:none!important;}</style></div>
 <!-- End Map -->

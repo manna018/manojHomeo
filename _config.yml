@@ -1,25 +1,25 @@
 # Site settings
-title: DentistSmile | Dental Jekyll Theme
-description: "A responsive Jekyll theme for dental clinics."
+title: Manoj Homeo | Dr. Abhishek Kumar Lalganj
+description: "Bimaari aapki Takleef humari"
 baseurl: "/manojHomeo" # the subpath of your site, e.g. /blog
 url: "https://manna018.github.io" # the name of your domain
-logo_url: svg/min/logo.svg
+logo_url: svg/mainLogo.svg
 
 # Hero
 hero: 
     hero_img: hero.jpg
-    hero_title: DentistSmile
-    hero_description: A responsive Jekyll theme for dental clinics.
+    hero_title: Dr. Abhishek Kumar
+    hero_description: BHMS 
 
 # Contact form
-api_token: # Enter API token here
+api_token: xvownnna # Enter API token here  Formspree
 
 # Contact info
 contact:
-    phone: 932 50 540
-    emergency: 931 53 234
-    email: contact@yoursite.com
-    address: Von schroeders 273, <br> Viña del mar - Chile
+    phone: 82 5253 7677
+    emergency: 82 5253 7677
+    email: doctorkumar01@gmail.com
+    address: House No. 34, Ward, No. 6, Library Rd, Manpur Patwatoli, Lalganj, Bihar 844121
 
 # Opening hours
 monday_friday: 9:00 – 18:00
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2020 Manoj Homeo - All rights reserved
 
 # Build settings
 markdown: kramdown
